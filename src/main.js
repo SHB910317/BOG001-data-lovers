@@ -19,12 +19,12 @@ function fetchData () {
          console.log(charactersData[character].name)
   
       let tarjetas = document.createElement ("div");
-      tarjetas.id =("Mymodals")
+      tarjetas.id =("Modals")
       tarjetas.classList.add ("personajes");
       //tarjetas.innerHTML= charactersData[character].name; 
-
       document.getElementById ("container").appendChild(tarjetas);
       console.log(tarjetas)
+
    // antes de appenchild indicamos en que parte de HTML vamos agregar el nuevo elemento que unimos con appenChild
       let name = document.createElement("h1"); // Se crea otra variable para crear el elemento img 
       name.innerHTML= charactersData[character].name; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
@@ -41,6 +41,13 @@ function fetchData () {
       title.innerHTML= charactersData[character].title; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
       tarjetas.appendChild(title);
       console.log (title)
+
+
+
+      }
+
+
+
   
   }
   }
