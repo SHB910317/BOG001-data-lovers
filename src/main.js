@@ -20,38 +20,32 @@ function fetchData () {
   
       let tarjetas = document.createElement ("div");
       tarjetas.classList.add ("personajes");
-      tarjetas.innerHTML= charactersData[character].name; 
+      //tarjetas.innerHTML= charactersData[character].name; 
+
       document.getElementById ("container").appendChild(tarjetas);
       console.log(tarjetas)
    // antes de appenchild indicamos en que parte de HTML vamos agregar el nuevo elemento que unimos con appenChild
-  
+      let name = document.createElement("h1"); // Se crea otra variable para crear el elemento img 
+      name.innerHTML= charactersData[character].name; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
+      tarjetas.appendChild(name);
+      console.log (name)
+
       let images = document.createElement("img"); // Se crea otra variable para crear el elemento img 
       images.src= images.innerHTML= charactersData[character].img; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
       tarjetas.appendChild(images);
       console.log (images)
-   
-  
       
-  
-    /*let prop;
-        for (prop in data) {
-  
-           console.log(`data.${prop}`,data[prop]);
-          /*let tarjeta =  document.getElementById("container");
-          tarjeta += `${data["id"]["ïmg"]}`;
-      }
-      document.getElementById ("container").innerHTML= data.Aatrox;
-      innerHTML +=
-  `<div class="tarjeta">
-   <img src= "${character.image}" alt= "${character.name}">
-  
-      */
-  
+      let title = document.createElement("h1"); // Se crea otra variable para crear el elemento img 
+      title.innerHTML= charactersData[character].title; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
+      tarjetas.appendChild(title);
+      console.log (title)
   
   }
   }
+
   fetchData();
     
-  
-        
-  
+//Función de las tarjetas
+
+
+
