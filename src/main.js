@@ -37,7 +37,7 @@ function fetchData () {
       tarjetas.appendChild(images);
       console.log (images)
       
-      let title = document.createElement("h1"); // Se crea otra variable para crear el elemento img 
+      let title = document.createElement("h2"); // Se crea otra variable para crear el elemento img 
       title.innerHTML= charactersData[character].title; // para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
       tarjetas.appendChild(title);
       console.log (title)
