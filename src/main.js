@@ -13,13 +13,28 @@ function fetchData () {
     })
   }
   
+  function abrirModal(name,blurb,tags,info){
+    console.log(name,blurb,tags,info)
+
+    document.getElementById("nameModal").textContent= name;
+    document.getElementById("blurbModal").textContent=blurb;
+    document.getElementById("infoModal").textContent=info;
+    document.getElementById("tagsModal").textContent=tags;
+
+    let span= document.getElementById("cierre");
+    span.onclick = () => {
+    modals.style.display = "none";
+    console.log(span)
+    }
+    
+  }
+
   function characters (charactersData){
     console.log(charactersData)
     for ( let character in charactersData)  {
          console.log(charactersData[character].name)
   
       let tarjetas = document.createElement ("div");
-      //tarjetas.id =("Modals")
       tarjetas.classList.add ("personajes");
       document.getElementById ("container").appendChild(tarjetas);
       console.log(tarjetas)
@@ -41,6 +56,17 @@ function fetchData () {
       tarjetas.appendChild(title);
       console.log (title)
 
+
+      tarjetas.addEventListener("click", () => { 
+
+        abrirModal(charactersData[character].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
+        modals.style.display = "block";
+      }) ;
+
+      
+
+     
+
     
 
 
@@ -56,14 +82,10 @@ function fetchData () {
       }
 
 
-
-  
-  }
-  }
-
   fetchData();
+
     
-//Función de las tarjetas
+
 
 
 

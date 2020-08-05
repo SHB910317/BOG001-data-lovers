@@ -84,9 +84,20 @@
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
-    margin-bottom: 60px;
-  }
+    margin-bottom: 60px
+  } 
   
+  /*Ventanas Modales*/
+
+  .ventanaModal {
+    
+    display: flex;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    align-items:center;
+    top: 0;
+
+  }
   /*header*/
   
   header {
