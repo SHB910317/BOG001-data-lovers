@@ -36,7 +36,7 @@
     div.personajes {
       display: flex;
       margin: auto;
-      margin-top: 8%;
+      margin-top: 3%;
       background-color:#3d1e38dd;
       width: 230px;
       height: 320px;
@@ -130,8 +130,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  
-  .redes h2{
+
+  .desarrollado{
     flex: 1;
+    text-align: center;
   }
   
