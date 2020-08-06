@@ -12,6 +12,7 @@ function fetchData () {
       characters(result.data);
     })
   }
+
   
   function abrirModal(name,blurb,tags,info){
     console.log(name,blurb,tags,info)
@@ -62,27 +63,29 @@ function fetchData () {
         abrirModal(charactersData[character].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
         modals.style.display = "block";
       }) ;
-
-      
-
-     
-
-    
-
-
-
- 
-      
-      
   
       }
 
 
 
-      }
+      };
 
 
   fetchData();
+
+  /*let optionOrder = document.getElementById("selectorOrder");
+  optionOrder.addEventListener('change', (event) => {
+  let valorSelect = event.target.value;
+  let filterDataOrder = filterOrder(characters, valorSelect);
+  showCharacters(filterDataOrder)
+  });*/
+
+  /*let search= document.getElementById("buscador");
+  buscador.addEventListener('keyup',(event) => {
+  const busqueda = event.target.value;
+  const busquedaCampeones = ""; 
+  });*/
+
 
     
 
