@@ -64,39 +64,23 @@ function fetchData () {
 
       tarjetas.addEventListener("click", () => { 
 
-        abrirModal(charactersData[characer].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
+        abrirModal(charactersData[character].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
         modals.style.display = "block";
-      }) ;
-
-      /*let optionOrder = document.getElementById("selectAlphabet");
+      }) 
+    
+     let optionOrder = document.getElementById("selectAlphabet");
       optionOrder.addEventListener('change', (event) => {
       let valorSelect = event.target.value;
       console.log(valorSelect)
       console.log(charactersData)
       let filterDataOrder = sortData(character,valorSelect);
       characters(filterDataOrder)
-      });*/
-    
-      
-  };
-};
+      });
+  }
+
+}
 
 
-  fetchData();
+fetchData();
 
  
-
-
-
-
-
-  
-
-  /*let search= document.getElementById("buscador");
-  buscador.addEventListener('keyup',(event) => {
-  const busqueda = event.target.value;
-  const busquedaCampeones = ""; 
-  });*/
-
-
-
