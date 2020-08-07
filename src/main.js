@@ -37,7 +37,7 @@ function fetchData () {
     for ( let character in charactersData)  {
          console.log(charactersData[character].name)
          /*console.log([character].sort());*/
-      
+    
   
       let tarjetas = document.createElement ("div");
       tarjetas.classList.add ("personajes");
@@ -68,17 +68,18 @@ function fetchData () {
         modals.style.display = "block";
       }) 
     
-     let optionOrder = document.getElementById("selectAlphabet");
-      optionOrder.addEventListener('change', (event) => {
-      let valorSelect = event.target.value;
-      console.log(valorSelect)
-      console.log(charactersData)
-      let filterDataOrder = sortData(character,valorSelect);
-      characters(filterDataOrder)
-      });
+   
   }
-
+  let optionOrder = document.getElementById("selectAlphabet");
+  optionOrder.addEventListener('change', (event) => {
+  let valorSelect = event.target.value;
+  console.log(valorSelect)
+  let object= Object.values(charactersData);
+  let filterDataOrder = sortData(object,valorSelect);// Aqui cambio el parametro general de data.Js por el argumento
+  characters(filterDataOrder)
+  });
 }
+
 
 
 fetchData();

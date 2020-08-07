@@ -6,9 +6,7 @@ export const example = () => {
 
 export const sortData = (data,valorSelect)=>{
 
-  if (valorSelect ==="a-z") {
-
-    data.sort((a,z)=>{
+    let sorteando = data.sort((a,z)=>{
     
       if (a.name > z.name){
         return 1;
@@ -17,11 +15,14 @@ export const sortData = (data,valorSelect)=>{
         return -1;
       }
 
-
     });
-  return data;
+
+  
+  if (valorSelect==="z-a") {
+
+    sorteando.reverse()
+  }
+  return sorteando;
 
   };
-return "sortData";
-};
-sortData(); 
+ 
