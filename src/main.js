@@ -5,6 +5,8 @@ import data from './data/pokemon/pokemon.js';
 
 console.log(example, data);*/
 
+import {sortData} from './data.js';
+
 function fetchData () {
     fetch ('./data/lol/lol.json')
     .then(response=> response.json()) // Indicamos el formato en que se desea obtener la información
@@ -34,6 +36,8 @@ function fetchData () {
     console.log(charactersData)
     for ( let character in charactersData)  {
          console.log(charactersData[character].name)
+         /*console.log([character].sort());*/
+      
   
       let tarjetas = document.createElement ("div");
       tarjetas.classList.add ("personajes");
@@ -60,35 +64,39 @@ function fetchData () {
 
       tarjetas.addEventListener("click", () => { 
 
-        abrirModal(charactersData[character].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
+        abrirModal(charactersData[characer].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
         modals.style.display = "block";
       }) ;
-  
-      }
 
-
-
-      };
+      /*let optionOrder = document.getElementById("selectAlphabet");
+      optionOrder.addEventListener('change', (event) => {
+      let valorSelect = event.target.value;
+      console.log(valorSelect)
+      console.log(charactersData)
+      let filterDataOrder = sortData(character,valorSelect);
+      characters(filterDataOrder)
+      });*/
+    
+      
+  };
+};
 
 
   fetchData();
 
-  /*let optionOrder = document.getElementById("selectorOrder");
-  optionOrder.addEventListener('change', (event) => {
-  let valorSelect = event.target.value;
-  let filterDataOrder = filterOrder(characters, valorSelect);
-  showCharacters(filterDataOrder)
-  });*/
+ 
+
+
+
+
+
+  
 
   /*let search= document.getElementById("buscador");
   buscador.addEventListener('keyup',(event) => {
   const busqueda = event.target.value;
   const busquedaCampeones = ""; 
   });*/
-
-
-    
-
 
 
 
