@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>League of legends</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="css/img/pngocean.com (1).png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      
+    <div class="enlaces">
+      <a href="#">Historia</a>
+      <a href="#">Acerca de</a>
+      <a href="#">Servicios</a>
+    </div>
+     <div class="hamburguesa">
+     <img src="css/img/menuhamb.png" alt="menu" id="hamburguesa">
+    </div>
+    </nav>
+
+    <input type= "text" id="buscador" placeholder="Name">
+
+    <div id="selectores">
+      <select class="filterAlphabet" id="selectAlphabet">
+        <option disabled selected>Ordenar</option>
+        <option value="a-z">A-Z</option>
+        <option value="z-a">Z-A</option>
+      </select>
+  
+
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M-26.80,54.77 C163.37,149.50 319.69,149.50 522.29,43.91 L507.62,169.23 L-0.84,151.47 Z"
+          style="stroke: none; fill:  #9e4cd4af;"></path>
+      </svg></div>
+  </header>
+
+  <main>
+
+    <section id= "container" class="contenedorPersonajes">
+    
+    
+
+    </section>
+
+    <div id= "modals" class="ventanaModal"> 
+      <div class = "modalContent">
+        <div class= "modalHeader">
+        <span id= "cierre" class= "close">&times;</span>
+          <h1 id=nameModal></h1>
+        </div>
+          <div class= "modal-body">
+            <h2>History</h2>
+            <p id=blurbModal></p>
+            <h2>Character Info</h2>
+            <p id=infoModal></p>
+            <h2>Difficult</h2>
+            <p id=tagsModal></p>
+          </div>
+      </div>
+      
+    </div>
+
+    </div> 
+  </main>
+
+ 
+  <footer>
+    <div class="redes">
+   <a href="https://www.facebook.com/leagueoflegends"> <img src="css/img/facebook-circle-logo-96.png" alt="facebook"> </a>
+   <a href="https://www.instagram.com/leagueoflegends/"> <img src="css/img/instagram-alt-logo-96.png" alt="Instagram" > </a>
+   <a href="https://twitter.com/leagueoflegends"> <img src="css/img/twitter-logo-96.png" alt="twitter"> </a>
+  </div>
+    <h2 class="desarrollado">Desarrollado por Stephanie y Majo, Laboratorians.</h2>
+  </footer>
+<script type="module" src="main.js"></script> <!--Colocar type= module cuando se esta trabajando impor y export en JS -->
+</body>
+</html>
