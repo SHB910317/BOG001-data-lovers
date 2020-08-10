@@ -91,7 +91,7 @@
 
   .ventanaModal {
     
-    display: flex;
+    display: none;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     align-items:center;

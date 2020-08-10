@@ -34,14 +34,16 @@ function fetchData () {
 
   function characters (charactersData){
     console.log(charactersData)
+    let container = document.getElementById("container");
+    container.textContent = "" ;
     for ( let character in charactersData)  {
          console.log(charactersData[character].name)
          /*console.log([character].sort());*/
     
-  
+      
       let tarjetas = document.createElement ("div");
       tarjetas.classList.add ("personajes");
-      document.getElementById ("container").appendChild(tarjetas);
+      container.appendChild(tarjetas);
       console.log(tarjetas)
 
    // antes de appenchild indicamos en que parte de HTML vamos agregar el nuevo elemento que unimos con appenChild
@@ -51,7 +53,7 @@ function fetchData () {
       console.log (name)
 
       let images = document.createElement("img"); // Se crea otra variable para crear el elemento img 
-      images.classList.add("MyImages")
+      images.classList.add("MyImages");
       images.src= images.innerHTML= charactersData[character].splash; //para darle un atributo a ese elemnto se llama la variable. ___ y se coloca el nombre del atributo
       tarjetas.appendChild(images);
       console.log (images)
@@ -65,19 +67,19 @@ function fetchData () {
       tarjetas.addEventListener("click", () => { 
 
         abrirModal(charactersData[character].name,charactersData[character].blurb,charactersData[character].info.attack,charactersData[character].tags);
-        modals.style.display = "block";
+        modals.style.display = "flex";
       }) 
-    
-   
+
   }
   let optionOrder = document.getElementById("selectAlphabet");
-  optionOrder.addEventListener('change', (event) => {
-  let valorSelect = event.target.value;
-  console.log(valorSelect)
-  let object= Object.values(charactersData);
-  let filterDataOrder = sortData(object,valorSelect);// Aqui cambio el parametro general de data.Js por el argumento
-  characters(filterDataOrder)
-  });
+      optionOrder.addEventListener('change', (event) => {
+      let valorSelect = event.target.value;
+      console.log(valorSelect)
+      let object= Object.values(charactersData);
+      let filterDataOrder = sortData(object,valorSelect);// Aqui cambio el parametro general de data.Js por el argumento
+      characters(filterDataOrder)
+      });
+  
 }
 
 
