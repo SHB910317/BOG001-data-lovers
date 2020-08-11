@@ -7,14 +7,14 @@
 * Los objetivos de los usuarios es conocer los diferentes personajes del juego, reconocer sus habilidades e historias 
 * El producto desarrollado permite al usuario diseñar sus estrategias de juego
 <br>
-(![LOL1](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL1.jpg))
-![LOL2](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL2.jpg)
+![LOL1.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL1.jpg))
+![LOL2.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL2.jpg)
 
 ## 2\. UX \(Diseño de experiencia de usuario\)
 <br>
 * ###### Primer prototipo con papel y lápiz (blanco y negro):
 <br>
-(![sketch.](https://github.com/SHB910317/BOG001-data-lovers/blob/master/sketch.jpg)
+(![sketch.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/sketch.jpg)
 
 Al presentar nuestro sketch ante nuestro squad y coaches el feedback quue recibimos apuntaba hacia que colocaramos información sobre el juego y que podriamos colocar imagenes interactivas. E n el feedback nos indicaron que la informacion para el usuario era clara d ecomo navegar. al igual que nos recomendaban desarrollar una sola ventana donde se presentaran todos los personajes dado que dentro del sketch se proponia desarrollar dos ventanas sin embargo estohacia que la API fuera confusa para el usuario ademas de que la primera vista no representaba mayor usabilidad por parte del usuario. 
 
