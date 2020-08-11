@@ -24,7 +24,7 @@ para que los jugadores puedan conectar con los mismos.
 
 ## 2. Imagen proyecto final
 
-[!](https:\\Users\Lenovo\Documents\img readme)
+([!](https:\\Users\Lenovo\Documents\img readme)
 
 ## 3. Objetivos de aprendizaje
 
