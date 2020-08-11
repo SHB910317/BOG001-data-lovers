@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [1. Descripción del proyecto](#1-Descripción del proyecto)
-* [2. Imagen proyecto final](#2-Imagen proyecto final)
-* [3. Sketch del proyecto](#3-Sketch del proyecto)
+* [1. Descripción del proyecto](#1-descripción-del-proyecto)
+* [2. Imagen proyecto final](#2-imagen-proyecto-final)
+* [3. Sketch del proyecto](#3-sketch-del-proyecto)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 
 
