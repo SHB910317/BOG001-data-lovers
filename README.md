@@ -13,8 +13,7 @@
 <br>
 * ###### Primer prototipo con papel y lápiz (blanco y negro):
 <br>
-<br>
-(![sketch](https://github.com/SHB910317/BOG001-data-lovers/blob/master/sketch.jpeg)
+
 
 Al presentar nuestro sketch ante nuestro squad y coaches el feedback quue recibimos apuntaba hacia que colocaramos información sobre el juego y que podriamos colocar imagenes interactivas. E n el feedback nos indicaron que la informacion para el usuario era clara d ecomo navegar. al igual que nos recomendaban desarrollar una sola ventana donde se presentaran todos los personajes dado que dentro del sketch se proponia desarrollar dos ventanas sin embargo estohacia que la API fuera confusa para el usuario ademas de que la primera vista no representaba mayor usabilidad por parte del usuario. 
 
