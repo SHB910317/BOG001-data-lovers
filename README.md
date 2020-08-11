@@ -7,8 +7,8 @@
 * Los objetivos de los usuarios es conocer los diferentes personajes del juego, reconocer sus habilidades e historias 
 * El producto desarrollado permite al usuario diseñar sus estrategias de juego
 <br>
-![LOL1.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL1.jpg))
-![LOL2.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL2.jpg)
+(![LOL1.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL1.jpg)
+(![LOL2.jpg](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL2.jpg)
 
 ## 2\. UX \(Diseño de experiencia de usuario\)
 <br>
