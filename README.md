@@ -8,7 +8,6 @@
 * El producto desarrollado permite al usuario diseñar sus estrategias de juego
 <br>
 (![LOL1](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL1.jpg)
-(![LOL2](https://github.com/SHB910317/BOG001-data-lovers/blob/master/LOL2.png)
 
 ## 2\. UX \(Diseño de experiencia de usuario\)
 <br>
