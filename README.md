@@ -9,6 +9,7 @@
 <br>
 <br>
 ![web1](https://github.com/SHB910317/BOG001-data-lovers/blob/master/web1.png)
+<br>
 ![web2](https://github.com/SHB910317/BOG001-data-lovers/blob/master/web2.png)
 
 ## 2\. UX \(Diseño de experiencia de usuario\)
