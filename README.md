@@ -24,7 +24,7 @@ para que los jugadores puedan conectar con los mismos.
 
 ## 2. Imagen proyecto final
 
-([!](https://github.com/Majolag/BOG001-data-lovers/blob/master/src/Screenshot_1.png)
+(https://github.com/Majolag/BOG001-data-lovers/blob/master/src/Screenshot_1.png)
 
 ## 3. Objetivos de aprendizaje
 
