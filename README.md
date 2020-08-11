@@ -2,15 +2,11 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [1. Descripción del proyecto](#1-Descripción del proyecto)
+* [2. Imagen proyecto final](#2-Imagen proyecto final)
+* [3. Sketch del proyecto](#3-Sketch del proyecto)
 * [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+
 
 ***
 
@@ -30,9 +26,12 @@ para que los jugadores puedan conectar con los mismos.
 (![Screenshot_7.png](https://github.com/Majolag/BOG001-data-lovers/blob/master/src/Screenshot_7.png)
 
 ## 3. Sketch del proyecto
+
 (![97fc56d9-cd94-41c9-9edc-32b33e36bfca.jpg](https://github.com/Majolag/BOG001-data-lovers/blob/master/src/97fc56d9-cd94-41c9-9edc-32b33e36bfca.jpg)
 (![Screenshot_1.png](https://github.com/Majolag/BOG001-data-lovers/blob/master/src/Screenshot_1.png)
 (![Screenshot_2.png](https://github.com/Majolag/BOG001-data-lovers/blob/master/src/Screenshot_2.png)
+
+## 4. Consideraciones generales
 
 ### HTML y CSS
 
